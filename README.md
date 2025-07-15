@@ -1,4 +1,4 @@
-#DocuGenie – Context Aware Document Assistant Using LLMs
+DocuGenie – Context Aware Document Assistant Using LLMs
 
 DocuGenie is an intelligent, context aware document assistant powered by open source Large Language Models (LLMs). It allows users to upload documents in formats such as PDF, DOCX, and TXT, interact with the content using natural language queries, receive intelligent summaries, and verify the factual consistency of generated answers.
 
@@ -26,18 +26,7 @@ Tech Stack
 | Deployment      | Vercel (frontend), Render / Railway (backend)       |
 
 
-
-Project Structure
-
-DocuGenie/
-├── client/                # Frontend (React)
-├── server/                # Backend (Node.js, Express)
-├── prompts/               # Prompt templates and examples
-├── utils/                 # File parsers, formatters
-├── docs/                  # Additional documentation
-└── README.md
-
-#Installation & Setup
+Installation & Setup
 
 1. Clone the Repository
 git clone https://github.com/gracecheemalapati/docugenie.git
@@ -58,21 +47,13 @@ Start Backend
 
 npm start
 Start Frontend (in separate terminal)
-
 npm run dev
 
 
 Core Concepts
 
-Prompt Engineering: Dynamic prompt generation based on document context.
-Retrieval-Augmented Generation (RAG): Ensures factual accuracy by grounding responses in uploaded documents.
-File Parsing: Uses libraries to extract structured content from multiple document formats.
-Semantic Search (Optional): Can be integrated to enhance long document navigation and QA performance.
+DocuGenie leverages advanced prompt engineering techniques to dynamically generate prompts based on the context of uploaded documents, ensuring that interactions with the LLM remain relevant and coherent. It incorporates Retrieval-Augmented Generation (RAG) to ground responses in the source material, improving factual accuracy and reducing hallucinations. The system also includes robust file parsing capabilities using libraries that extract and normalize content from PDF, DOCX, and TXT formats. Additionally, semantic search can be integrated to improve the experience for users navigating long or complex documents by enabling more accurate information retrieval.
 
 Use Cases
 
-Legal document analysis
-Research paper summarization
-Corporate policy understanding
-Academic study assistant
-
+DocuGenie is suitable for a wide range of real-world applications. It can assist legal professionals in analyzing lengthy contracts and agreements, help researchers summarize academic papers, enable HR or compliance teams to interpret corporate policies, and support students in understanding and querying study materials. Its versatility and adaptability make it a powerful tool for any domain involving document-heavy workflows.
